@@ -43,8 +43,39 @@ section div.mytab button.active {
 }
 
 section div.tabcontent {
-  padding: 0px 12px;
   border: 1px solid #ccc;
   border-left: none;
   height: 100vh;
+  overflow: scroll;
+}
+
+
+/*                           return content                              */
+
+button.mybutton {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+section div.topofform {
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.mycode {
+  max-width: 70px;
+}
+
+.myno {
+  max-width: 170px;
+  margin-left: 10px;
+}
+
+.mytextarea {
+  margin-top: 20px;
+}
+
+.mybutton1 {
+  margin-top: 15px;
 }
