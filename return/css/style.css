@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+section {
+  display: block;
+}
+
+section div.mytab {
+  float: left;
+  color: grey;
+  background-color: rgb(240, 229, 229);
+  border: 1px solid rgb(172, 168, 168);
+  height: 100vh;
+}
+
+section div.mytab button {
+  display: block;
+  text-align: left;
+  width: 100%;
+  outline: none;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  border: none;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+
+section div.mytab button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+section div.mytab button.active {
+  background-color: whitesmoke;
+  color: black;
+  border-right: 5px #7B0D10 solid;
+  transition: 0.3s;
+}
+
+section div.tabcontent {
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  border-left: none;
+  height: 100vh;
+}
