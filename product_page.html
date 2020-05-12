@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Product Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!--register area start-->
+            <div class="col-lg-8 col-md-8">
+                <div class="account_form register">
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <h1>Product Details</h1>
+                        <hr>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label>Product Code<span>*</span></label>
+                                <input type="text" class="form-control" name="name" placeholder="Product Code"
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>Product Name<span>*</span></label>
+                                <input type="text" class="form-control" name="email" placeholder="Product Name"
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>No of items</label>
+                                <input type="text" class="form-control" name="phone" placeholder="Stock" required="">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlFile1">Picture1 (Product only)</label>
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                            </form>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlFile1">Picture2 (With model)</label>
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label for="">Prouct Details</label>
+                                <textarea name="textarea" id="textarea" rows="3" class="form-control"
+                                    placeholder="Enter full description" required=""></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="inputGroupSelect01">Purity</label>
+                                    </div>
+                                    <select class="custom-select" placeholder="Stock" id="inputGroupSelect01">
+                                        <!-- <option selected>Gold purity</option> -->
+                                        <option value="1">22KT</option>
+                                        <option value="2">18KT</option>
+                                        <option value="3">14KT</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="inputGroupSelect01">Metal</label>
+                                    </div>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <!-- <option selected>Select metal purity</option> -->
+                                        <option value="1">Gold</option>
+                                        <option value="2">White Gold</option>
+                                        <option value="3">Rose Gold</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="inputGroupSelect01">Stone</label>
+                                    </div>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <!-- <option selected>Choose...</option> -->
+                                        <option value="1">None</option>
+                                        <option value="2">Diamond</option>
+                                        <option value="3">Gems</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label>Size of items(In Millimetre)</label>
+                                <input type="number" class="form-control" name="size" placeholder="Size" required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>Height of items(In Millimetre)</label>
+                                <input type="number" class="form-control" name="Height" placeholder="Height"
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>Width of items(In Millimetre) </label>
+                                <input type="number" class="form-control" name="Width" placeholder="Width" required="">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label>Total weight<span>*</span></label>
+                                <input type="text" class="form-control" name="weight" placeholder="Enter total weight"
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>Metal weight</label>
+                                <input type="text" class="form-control" name="weight" placeholder="Enter Gold weight "
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>Stone weight</label>
+                                <input type="text" class="form-control" name="Weight" placeholder="Enter Stone weight"
+                                    required="">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label>Metal price<span>*</span></label>
+                                <input type="text" class="form-control" name="price" placeholder="Enter Gold price"
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>Stone price</label>
+                                <input type="text" class="form-control" name="price" placeholder="Enter Gold price "
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>GST(Tax any)</label>
+                                <input type="text" class="form-control" name="price" placeholder="Enter Stone price"
+                                    required="">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label>Total Price<span>*</span></label>
+                                <input type="text" class="form-control" name="price" placeholder="Enter total price"
+                                    required="">
+                            </div>
+                            <div class="form-group col">
+                                <label>Discount(If any)</label>
+                                <input type="text" class="form-control" name="price" placeholder="Enter Discount "
+                                    required="">
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="login_submit">
+                            <button type="button" class="btn btn-primary btn-lg">Add product</button>
+                            <button type="button" class="btn btn-secondary btn-lg">Edit Product</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--register area end-->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
